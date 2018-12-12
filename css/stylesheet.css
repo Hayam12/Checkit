@@ -1,0 +1,125 @@
+.box{
+  width: 450px;
+  background: gray;(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: Orange;
+}
+
+
+.img2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.button{
+  text-align: center;
+}
+
+
+.container span{
+  color: gray;
+  text transform: uppercase;
+  display: block
+}
+
+.text1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 5s 1;
+}
+.text2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 5s 1;
+}
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+      }
+85%{
+  letter-spacing: 8px;
+  margin-bottom: -40px;
+}
