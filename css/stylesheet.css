@@ -24,7 +24,7 @@
   font-weight: 100;
 }
 .box p{
-  text-align: justify;
+  text-align: center;
 }
 ul{
   margin: 0;
@@ -44,7 +44,6 @@ ul{
 .box li a:hover{
   color: Orange;
 }
-
 
 .img2{
   text-align: center;
